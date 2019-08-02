@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>简易JQuery框架</title>
+</head>
+<body>
+  <!-- <p class="one" myattr="1">1</p> -->
+
+  <div class="box" style="width:40px; height: 40px; background-color: red">444</div>
+  <div class="box" style="width:40px; height: 40px; background-color: rgb(161, 65, 65)">555</div>
+  <div class="box" style="width:40px; height: 40px; background-color: antiquewhite">666</div>
+  <script src="./jquery.js"></script>
+  <!-- <script src="./jquery-1.12.4.js"></script> -->
+  <script>
+    $('.box').on('click', function(){
+      console.log(this);
+    })
+  </script>
+</body>
+</html>
